@@ -1,0 +1,29 @@
+{
+  "name": "lets_code_nodejs",
+  "version": "1.0.0",
+  "description": "Backend Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "NodJS",
+    "Backend",
+    "Service"
+  ],
+  "author": "Casey Spurlock",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "NodeJS Backend Project"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22"
+  }
+}
