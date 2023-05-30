@@ -11,4 +11,16 @@ router.get("/", (req,res)=>{
         }
     })
 });
+
+router.get("/:id", (req,res,next) => {
+    const id = req.params.id;
+    res.status(200).json({
+        message: 'Successful - GET by ID',
+        id: id,
+        metadata: {
+            hostname: req.hostname,
+            method: req.method,
+        }
+    })
+});
 module.exports = router;
